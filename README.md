@@ -28,7 +28,7 @@ O programa aceita números **com ou sem máscara**, identifica automaticamente s
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/cpf-cnpj-validator.git
+git clone https://github.com/vitorbytedev/validador-cpf-cnpj.git
 ```
 
 2. Acesse a pasta do projeto:
@@ -61,21 +61,38 @@ Válido
 
 Entrada:
 
-04.252.011/0001-10
-
+```bash
+529.982.247-25
+```
 
 Saída:
-
-CNPJ
+```bash
+CPF
 Válido
-
+```
 
 Entrada:
 
-111.111.111-11
-
+```bash
+04.252.011/0001-10
+```
 
 Saída:
 
+```bash
+CNPJ
+Válido
+```
+
+Entrada:
+
+```bash
+111.111.111-11
+```
+
+Saída:
+
+```bash
 CPF
 Inválido
+```
